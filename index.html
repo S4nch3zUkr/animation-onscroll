@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation on scroll</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+</head>
+<body>
+    <section class="section">
+        <h1 data-aos="fade-up" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <section class="section">
+        <h1 data-aos="zoom-in" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <section class="section">
+        <h1 data-aos="zoom-in-up" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <section class="section">
+        <h1 data-aos="zoom-in-up" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <section class="section">
+        <h1 data-aos="fade-right" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <section class="section">
+        <h1 data-aos="fade-left" class="headline">Lorem ipsum dolor sit amet</h1>
+    </section>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <script src="js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init( {
+                offset: 200,
+                duration: 1500,
+            }
+        );
+    </script>
+
+
+</body>
+</html>
