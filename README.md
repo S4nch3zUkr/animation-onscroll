@@ -1,1 +1,1 @@
-# https://s4nch3zukr.github.io/animation-onscroll
+# https://s4nch3zukr.github.io/animation-onscroll/
